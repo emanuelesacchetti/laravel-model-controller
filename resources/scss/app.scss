@@ -1,10 +1,17 @@
 @import '~bootstrap/scss/bootstrap';
 
 
+body{
+    background-color: #060d17;
+}
+
+
+
 .home-cont{
 
     .card {
         height: 600px;
+        background-color: #101b2a;
 
         img {
         height: 400px;

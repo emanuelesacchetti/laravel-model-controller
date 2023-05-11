@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
-@section('page-title', 'HomePage')
+@section('page-title', 'Best movies')
 
 
 @section('content')
     <div class="container home-cont">
         <div class="row">
-            @foreach($movies as $movie)
+            @foreach($lastMovies as $movie)
                 <div class="col-3">
                     <div class="card m-2 text-light" style="width: 18rem;">
                         <img src="{{$movie->img}}" class="card-img-top" alt="...">
